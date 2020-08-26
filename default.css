@@ -292,6 +292,19 @@ h6 {font-size: 16px;}
     width: 100%;
 }
 
+.social-lnk {
+    width: 180px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.social-lnk span {
+    font-size: 28px;
+    color: #17a2b8
+}
+
 .post-wrapper{
     display: grid;
     grid-template-columns: repeat(auto-fit, 320px);
